@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+        background-color: #333;
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-color: #333;
+        gap: 300px;
+        margin-top: 10px;
+      }
+      .kiri {
+        font-weight: bold;
+        font-size: 22px;
+        color: #fdc11f;
+        margin-right: 20px;
+      }
+      .kanan {
+        display: flex;
+        gap: 20px;
+      }
+      .kanan a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 10px;
+      }
+      .kanan a:hover {
+        background-color: #fdc11f;
+        color: #333;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      .isi {
+        font-weight: 600;
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        /* flex-direction: column; */
+        padding: 0 10px;
+        line-height: 45px;
+      }
+      .isi2 {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+      }
+      .isi2 a {
+        color: white;
+        background-color: #3f3f46;
+        font-weight: 600;
+        padding: 10px 100px;
+        text-decoration: none;
+        border-radius: 7px;
+      }
+      .isi2 a:hover {
+        transform: scale(1.1);
+        transition: 0.2s;
+        background-color: #fdc11f;
+        color: #333;
+      }
+      img {
+        width: 500px;
+        height: 300px;
+      }
+      .img {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        gap: 20px;
+      }
+      .isim {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 700px;
+      }
+      /* a{
+        text-decoration: none;
+      } */
+      @media (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .kiri {
+          margin-bottom: 10px;
+        }
+
+        .kanan {
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="kiri">Felix Natanael Amany</div>
+      <div class="kanan">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="education.html">Education</a>
+        <a href="skill.html">Skills</a>
+        <a href="campus.html">Campus</a>
+        <a href="hobby.html">Hobby</a>
+      </div>
+    </nav>
+    <div class="isi">
+      <div class="cover">
+        <div class="isi2">
+          <a href="sti.html">STI</a>
+          <a href="bd.html">BD</a>
+          <a href="kwu.html">KWU</a>
+        </div>
+        <div class="img">
+          <img src="./img/kampus.png" alt="" />
+          <div class="isim">
+            <span style="font-size: 25px; font-weight: 700"
+              >Kampus Intitut Teknologi dan Bisnis Sabda Setia</span
+            >
+            <span style="color: gray"
+              >Kami memberikan sebuah pendidikan dan pengalaman yang mendorong
+              kesuksesan mahasiswa dalam karir mereka. Kami membantu mereka
+              untuk berhasil di karir mereka — menemukan bidang yang mereka
+              senangi dan berani untuk memimpin di bidangnya.</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

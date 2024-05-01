@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+        background-color: #333;
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-color: #333;
+        gap: 300px;
+        margin-top: 10px;
+      }
+      .kiri {
+        font-weight: bold;
+        font-size: 22px;
+        color: #fdc11f;
+        margin-right: 20px;
+      }
+      .kanan {
+        display: flex;
+        gap: 20px;
+      }
+      .kanan a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 10px;
+      }
+      .kanan a:hover {
+        background-color: #fdc11f;
+        color: #333;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      .isi {
+        font-weight: 600;
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+      .isi2 {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+      }
+      .foto {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+      }
+      .info {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+      }
+      .box {
+        width: 480px;
+        margin-top: 30px;
+        height: 120px;
+        background-color: white;
+        color: black;
+        margin-right: 100px;
+        border-radius: 10px;
+        text-align: left;
+        padding: 10px 20px;
+        padding-top: 20px;
+        line-height: 30px;
+        background-color: #fdc11f;
+      }
+      .box2 {
+        width: 480px;
+        margin-top: 230px;
+        height: 120px;
+        background-color: white;
+        color: black;
+        margin-left: 100px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: left;
+        padding-top: 20px;
+        line-height: 30px;
+        background-color: #fdc11f;
+      }
+      .line {
+        background-color: white;
+        margin-top: 30px;
+        width: 5px;
+        height: 103vh;
+      }
+      .box3 {
+        width: 480px;
+        padding: 10px 20px;
+        margin-top: 250px;
+        height: 120px;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        text-align: left;
+        padding-top: 20px;
+        line-height: 30px;
+        background-color: #fdc11f;
+      }
+      .img {
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1000px;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 552px;
+        bottom: 90px;
+      }
+      .img2 {
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1000px;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        right: 173px;
+        bottom: 90px;
+      }
+      @media (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .kiri {
+          margin-bottom: 10px;
+        }
+
+        .kanan {
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="kiri">Felix Natanael Amany</div>
+      <div class="kanan">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="education.html">Education</a>
+        <a href="skill.html">Skills</a>
+        <a href="campus.html">Campus</a>
+        <a href="hobby.html">Hobby</a>
+      </div>
+    </nav>
+    <div class="isi">
+      <div class="isi2">
+        <span style="color: #fff">Education</span>
+        <div class="container">
+          <div class="isibox">
+            <div class="box">
+              <span style="font-weight: Bold">SD Kristen Immanuel</span> <br />
+              <span style="font-size: 20px; font-weight: 500">2011-2017</span>
+              <br />
+              <span style="font-size: 23px"
+                >Pontianak, Kalimantan Barat, Indonesia</span
+              >
+              <div class="img">
+                <img src="img/imma.png" alt="" height="50" width="50" />
+              </div>
+            </div>
+            <div class="box3">
+              <span style="font-weight: Bold">SMK Kristen Immanuel</span><br />
+              <span style="font-size: 20px; font-weight: 500">2020-2023</span
+              ><br />
+              <span style="font-size: 23px"
+                >Pontianak, Kalimantan Barat, Indonesia</span
+              >
+              <div class="img">
+                <img src="img/imma.png" alt="" height="50" width="50" />
+              </div>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="box2">
+            <span style="font-weight: Bold">SMP Bruder</span><br />
+            <span style="font-size: 20px; font-weight: 500">2017-2020</span
+            ><br />
+            <span style="font-size: 23px"
+              >Pontianak, Kalimantan Barat, Indonesia</span
+            >
+            <div class="img2">
+              <img src="img/imma.png" alt="" height="50" width="50" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
